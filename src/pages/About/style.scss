@@ -1,0 +1,73 @@
+
+
+.about {
+
+}
+
+.about__btn--wrapper {
+    width: 40%;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    button {
+        padding: 10px 30px;
+        border-radius: 8px;
+        border: none;
+        color: #fff;
+        font-size: 15px;
+        font-family: sans-serif;
+        cursor: pointer;
+        transition:all 0.4s ease-in-out;
+    }
+
+    &-add {
+        background-color: aquamarine;
+
+        &:hover {
+            background-color: aqua;
+        }
+    }
+
+    &-open {
+        background-color:seagreen ;
+       
+        &:hover {
+            background-color: rgb(77, 255, 0);
+        }
+    }   
+
+    &-close {
+        background-color: crimson;
+
+        &:hover {
+            background-color: rgb(240, 92, 66);
+        }
+    }   
+    &-toggle {
+        background-color: rgb(175, 175, 45);
+
+        &:hover {
+            background-color: rgb(219, 224, 80);
+        }
+    }   
+}
+
+.about__card--page {
+    width: 50%;
+    margin-top: 5vh;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: azure;
+    transition: all 0.4s ease-in-out;
+    
+    p {
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+}
+
+.swap {
+    transform: translateY(-200%);
+}
